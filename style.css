@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.area{
+    background-image: url(../background.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#scoreBox{
+    position: absolute;
+    top: 90vh;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+}
+
+#hiscoreBox{
+    position: absolute;
+    top: 59px;
+    right: 140px;
+    font-size: 39px;
+    font-weight: bold;
+}
+
+#playground{
+    background:linear-gradient(rgb(147, 72, 72),yellow);
+    height: 92vmin;
+    width: 90vmin;
+    box-shadow:  0px 9px 86px 13px #a900b7;
+   display: grid;
+   border: 1px solid rgb(255, 47, 0);
+   grid-template-columns: repeat(18, 1fr);
+   grid-template-rows: repeat(18, 1fr);
+   
+}
+.head{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5tLPV8gyOjjfJuL1o8r72OVxMRvihLvVuMg&usqp=CAU');
+    background-position: center;
+    background-size: 7vh;
+    /* border: 2px solid rgb(34, 4, 34);  */
+    transform: scale(1.02);
+    border-radius: 50%;
+    box-shadow:  0px 5px 10px rgb(255, 60, 0);
+}
+.food{
+    background: linear-gradient(rgb(91, 78, 211), rgb(111, 254, 45));
+    border: .25vmin solid black;
+    border-radius: 8px;
+    
+    box-shadow:  0px 5px 10px rgb(68, 26, 13);
+}
+.snake{
+    background-color: rgb(16, 228, 30);
+    border: .25vmin solid white;
+    border-radius: 12px;
+    box-shadow:  0px 5px 10px rgb(13, 68, 21);
+}

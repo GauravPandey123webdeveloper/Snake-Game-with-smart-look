@@ -20,7 +20,7 @@ The game includes background music at the start, end, and during gameplay to cre
 ## Installation
 
 1. Clone the project repository:
-
+git clone https://github.com/GauravPandey123webdeveloper/Snake-Game-with-smart-look.git
    
 2. Open the project folder and navigate to the `index.html` file.
 
